@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "player": "Rishabh Pant",
+    "team": "Lucknow Super Giants",
+    "role": "Wicketkeeper-Batsman",
+    "country": "India",
+    "base_price_crore": 2,
+    "sold_price_crore": 27,
+    "image": "https://i.ibb.co.com/cXZhwsp3/images.webp"
+  },
+  {
+    "id": 2,
+    "player": "Mitchell Starc",
+    "team": "Kolkata Knight Riders",
+    "role": "Bowler",
+    "country": "Australia",
+    "base_price_crore": 2,
+    "sold_price_crore": 24.75,
+    "image": "https://i.ibb.co.com/6R6rZKzK/images-1.jpg"
+  },
+  {
+    "id": 3,
+    "player": "Pat Cummins",
+    "team": "Sunrisers Hyderabad",
+    "role": "All-Rounder",
+    "country": "Australia",
+    "base_price_crore": 2,
+    "sold_price_crore": 20.5,
+    "image": "https://i.ibb.co.com/WN3pWktC/images-2.jpg"
+  },
+  {
+    "id": 4,
+    "player": "Daryl Mitchell",
+    "team": "Chennai Super Kings",
+    "role": "All-Rounder",
+    "country": "New Zealand",
+    "base_price_crore": 1,
+    "sold_price_crore": 14,
+    "image": "https://i.ibb.co.com/7JDgpJMf/83.jpg"
+  },
+  {
+    "id": 5,
+    "player": "MS Doni",
+    "team": "Punjab Kings",
+    "role": "Batsman",
+    "country": "India",
+    "base_price_crore": 0.5,
+    "sold_price_crore": 9,
+    "image": "https://i.ibb.co.com/KcRjT0JS/57.jpg"
+  },
+  {
+    "id": 6,
+    "player": "Rovman Powell",
+    "team": "Rajasthan Royals",
+    "role": "All-Rounder",
+    "country": "West Indies",
+    "base_price_crore": 0.75,
+    "sold_price_crore": 7.4,
+    "image": "https://i.ibb.co.com/VcvhStM7/329.jpg"
+  },
+  {
+    "id": 7,
+    "player": "Virat Khuli",
+    "team": "Chennai Super Kings",
+    "role": "Batsman",
+    "country": "India",
+    "base_price_crore": 0.2,
+    "sold_price_crore": 8.4,
+    "image": "https://i.ibb.co.com/WWMrxhQx/virat.webp"
+  },
+  {
+    "id": 8,
+    "player": "Harshal Patel",
+    "team": "Punjab Kings",
+    "role": "Bowler",
+    "country": "India",
+    "base_price_crore": 2,
+    "sold_price_crore": 11.75,
+    "image": "https://i.ibb.co.com/84KBWwYQ/MZ9-0571.jpg"
+  },
+  {
+    "id": 9,
+    "player": "Shakib All Hasan",
+    "team": "Royal Challengers Bangalore",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "base_price_crore": 1,
+    "sold_price_crore": 11.5,
+    "image": "https://i.ibb.co.com/hx8WWbWb/shakib.jpg"
+  },
+  {
+    "id": 10,
+    "player": "Tamim Iqbal",
+    "team": "Lucknow Super Giants",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "base_price_crore": 0.75,
+    "sold_price_crore": 6.4,
+    "image": "https://i.ibb.co.com/0ppBZW2K/tt.webp"
+  },
+  {
+    "id": 11,
+    "player": "Liton",
+    "team": "Sunrisers Hyderabad",
+    "role": "Batsman",
+    "country": "Bangladesh",
+    "base_price_crore": 2,
+    "sold_price_crore": 6.8,
+    "image": "https://i.ibb.co.com/qMpmy5GX/litpn.webp"
+  },
+  {
+    "id": 12,
+    "player": "Taskin",
+    "team": "Mumbai Indians",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "base_price_crore": 2,
+    "sold_price_crore": 5,
+    "image": "https://i.ibb.co.com/qFMkXRy9/tk.jpg"
+  }
+
+]
