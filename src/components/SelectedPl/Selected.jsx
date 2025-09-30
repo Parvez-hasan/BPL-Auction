@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Selected = () => {
   return (
-    <div>Selected</div>
+    <div className='container mx-auto'>
+      <h1>hello selected</h1>
+    </div>
   )
 }
