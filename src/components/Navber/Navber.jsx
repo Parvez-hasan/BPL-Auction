@@ -1,7 +1,7 @@
 import React from 'react'
 import NavLogo from "../../assets/logo.png"
 import CoinIon from "../../assets/images-removebg-preview.png"
-export const Navber = () => {
+export const Navber = ({avalalibleBalence}) => {
     return (
 
         <div className="navbar bg-base-100 shadow-sm container mx-auto lg:px-4">
@@ -30,7 +30,7 @@ export const Navber = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <span className='font-bold'>6000000000</span>
+                <span className='font-bold'>{avalalibleBalence}</span>
                 <span className='ml-2 font-semibold'>Coin</span>
               <img className='h-10 w-12' src={CoinIon} alt="" />
             </div>

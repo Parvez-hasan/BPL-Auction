@@ -9,15 +9,18 @@ import Banner from "./components/Navber/Banner"
    return res.json()
   }
 
+
+ const playerPromise = fetchPlayers() 
+
 function App() {
   const [toggle, setToggle] = useState(false);
+  const [avalalibleBalence, setAvalalibleBalence] = useState(150000);
 
-  const playerPromise = fetchPlayers() 
 
   return (
     <>
 
-  <Navber></Navber>
+  <Navber avalalibleBalence={avalalibleBalence}></Navber>
   <Banner></Banner>
 
   <div className="container mx-auto flex justify-between items-center py-3 px-3">
@@ -31,14 +34,12 @@ function App() {
 
   {
     toggle ?  <Suspense fallback={<span className="loading loading-dots loading-lg flex mx-auto mt-4"></span>}>
-   <AvalaliblePl playerPromise={playerPromise}></AvalaliblePl>
+   <AvalaliblePl playerPromise={playerPromise} 
+   avalalibleBalence={avalalibleBalence}
+    setAvalalibleBalence={setAvalalibleBalence}></AvalaliblePl>
  </Suspense> 
  :  <Selected></Selected>
   }
-
-
- 
-
     </>
   )
 }
