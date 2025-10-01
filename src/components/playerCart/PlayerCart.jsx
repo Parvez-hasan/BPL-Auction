@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaFontAwesome } from "react-icons/fa6";
 import { SiLit } from 'react-icons/si';
 
-export const PlayerCart = ({ player, avalalibleBalence, setAvalalibleBalence }) => {
+export const PlayerCart = ({ player, avalalibleBalence, setAvalalibleBalence, purchansePl, setPurchansePl }) => {
 
   const [isSelected, setIsSelected] = useState(false);
 
@@ -15,6 +15,7 @@ export const PlayerCart = ({ player, avalalibleBalence, setAvalalibleBalence }) 
     }
     setIsSelected(true)
     setAvalalibleBalence(avalalibleBalence - playerPrice );
+    setPurchansePl([...purchansePl, playerData]);
   };
 
   return (
